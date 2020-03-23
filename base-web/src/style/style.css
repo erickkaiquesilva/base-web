@@ -1,0 +1,4 @@
+.backgroundDefault{ background-color: #f00; }
+.backgroundDefault1{ background-color: #DDD; }
+.btnDefault{ background-color: transparent !important; border: 1px solid #0f0fff !important; border-radius: 100px !important; -moz-border-radius: 100px !important; -webkit-border-radius: 100px !important; height: 60px !important; width: 90% !important; margin: 10px 70px; }
+.imageBackground{ height: 560px; background-color: #0f0fff; }
