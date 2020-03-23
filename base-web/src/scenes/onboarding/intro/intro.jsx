@@ -52,7 +52,7 @@ class IntroView extends Component {
                         </p>
                     </article>
                     <footer>
-                        <center><button>BOTÃO RODAPÉ</button></center>
+                        <center><button className="btnSignDefault">BOTÃO RODAPÉ</button></center>
                     </footer>
                 </section>
                 <section className="row color3">

@@ -10,6 +10,10 @@
 
 /* CLASS: whoIsGreenCode, whatOurGoal */
 .whoIsGreenCode h1,
-.whatOurGoal h1{ text-transform: uppercase; font-size: 3em; font-weight: bold; font-weight: lighter; }
+.whatOurGoal h1{ text-transform: uppercase; font-size: 3em; font-weight: bold; font-weight: lighter; padding: 4px 18px; }
+.whoIsGreenCode p,
+.whatOurGoal p{ line-height: 200%; padding: 10px 18px; }
 
-/* CLASS:  */
+/* STYLE DEFAULT */
+.btnSignDefault{ background: #F00; width: 70%; max-width: 350px; height: 60px; margin: 2% 0%; cursor: pointer; border: 2px solid #FF0; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; }
+.btnSignDefault:focus{ background-color: thistle; }
