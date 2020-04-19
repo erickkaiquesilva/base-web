@@ -24,10 +24,10 @@ class IntroView extends Component {
                                     <h1>TESTE</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
                                 </center>
-                                <div className="col xs6">
+                                <div className="col xl6">
                                     <button className="btn btnDefault">Ajuda na preservação da natureza</button>
                                 </div>
-                                <div className="col xs6">
+                                <div className="col xl6">
                                     <button className="btn btnDefault">Quem é a Green Code</button>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ class IntroView extends Component {
                     </div>
                 </div>
                 <section className="row backgroundDefault1">
-                    <article className="col xl6 whoIsGreenCode">
+                    <article className="col xl6 s12 whoIsGreenCode">
                         <h1>Quem é a Green Code</h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -43,7 +43,7 @@ class IntroView extends Component {
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                     </article>
-                    <article className="col xl6 whatOurGoal">
+                    <article className="col xl6 s12 whatOurGoal">
                         <h1>Qual Nosso Objetivo</h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -56,11 +56,22 @@ class IntroView extends Component {
                     </footer>
                 </section>
                 <section className="row color3">
-                    <article className="col xl6 color1">
-                        <h4>Esquerda</h4>
+                    <article className="col xl6 recicleVidro">
+                        <h1>VIDRO</h1>
+                        
+                        <p>
+                            <div className="imageSimulator"></div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        </p>
                     </article>
-                    <article className="col xl6 color2">
-                        <h4>Direita</h4>
+                    <article className="col xl6 reciclePlastico">
+                        <h1>PLÁSTICO</h1>
+                        <p>
+                            <div className="imageSimulator"></div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        </p>
                     </article>
                 </section>
             </>
