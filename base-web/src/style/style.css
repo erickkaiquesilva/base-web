@@ -1,19 +1,392 @@
-.backgroundDefault{ background-color: transparent !important; }
-.backgroundDefault1{ background-color: #DDD; }
-.backgroundImageHome{ background: url("../image/background.jpg") no-repeat center center; }
-.btnDefault{ background-color: transparent !important; border: 1px solid #0f0fff !important; border-radius: 100px !important; -moz-border-radius: 100px !important; -webkit-border-radius: 100px !important; height: 60px !important; width: 90% !important; margin: 10px 70px; }
-.imageBackground{ height: 560px; background-color: transparent; }
+.backgroundDefault {
+    background-color: transparent !important;
+}
 
-.color1{ background-color: yellow; }
-.color2{ background-color: violet; }
-.color3{ background-color: yellowgreen; }
+.backgroundDefault1 {
+    background-color: white;
+    margin: 100px;
+}
+
+.backgroundImageHome {
+    background: url("../image/background.jpg") no-repeat center center;
+    background-size: 1905px 922px;
+}
+
+/*NAVBAR*/
+
+.topnav {
+    background-color: transparent !important;
+    overflow: hidden;
+    padding-left: 606px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #6BA85A;
+    color: #004B30;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*FIM - NAVBAR*/
+
+/*FOOTER*/
+
+.footer {
+    width: 1439px;
+    height: 370px;
+    left: 0px;
+    top: 3588px;
+    background: #FFFFFF;
+}
+
+.color3 .footer p {
+    width: auto;
+    height: 36.04px;
+    left: 122px;
+    top: 3634.34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(107, 168, 90, 0.5);
+}
+
+.color3 .footer ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 200%;
+    padding-top: 50px;
+}
+
+.imgRedeSocial{
+    height: 56px;
+    background: url("../image/redeSocial.png") no-repeat
+}
+
+/*FIM - FOOTER*/
+
+.backgroundGreen {
+    width: 1439px;
+    height: 760px;
+    left: 0px;
+    top: 2863px;
+    background: #004B30;
+}
+
+.cinzaFundo {
+    width: 1905px;
+    height: 600px;
+    left: 0px;
+    top: 2095px;
+    background: rgba(31, 31, 31, 0.3);
+}
+
+.imgCinza {
+    width: 604px;
+    height: 307px;
+    left: 720px;
+    top: 2124px;
+    background: rgba(0, 32, 64, 0.3);
+}
+
+.imgCinza h4 {
+    width: 410px;
+    height: 42px;
+    left: 743px;
+    top: 2149px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.backgroundImageLixo {
+    height: 700px;
+    background: url("../image/GroupImgs.jpg") no-repeat center center;
+}
+
+.btnDefault1 {
+    width: 467px;
+    height: 85px;
+    left: 243px;
+    top: 428px;
+    cursor: pointer;
+    color: #FFFFFF !important;
+    border: 4px solid #004B30 !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent !important;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.btnDefault2 {
+    width: 467px;
+    height: 85px;
+    left: 730px;
+    top: 427px;
+    cursor: pointer;
+    color: #FFFFFF !important;
+    background: #004B30 !important;
+    border-radius: 10px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.imageBackground {
+    height: 509px;
+    margin-top: 213px;
+    background-color: transparent;
+}
+
+.color1 {
+    width: 720px;
+    height: 580px;
+    left: 0px;
+    top: 1515px;
+    background: #004B30;
+}
+
+.color2 {
+    width: 720px;
+    height: 580px;
+    left: 720px;
+    top: 1515px;
+    background: #6BA85A;
+    background-color: #6BA85A;
+}
+
+.color3 h4 {
+    width: 106px;
+    height: 50px;
+    left: 243px;
+    top: 1581px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.color3 p {
+    width: 467px;
+    height: 350px;
+    left: 127px;
+    top: 1645px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
 
 /* CLASS: whoIsGreenCode, whatOurGoal */
-.whoIsGreenCode h1,
-.whatOurGoal h1{ text-transform: uppercase; font-size: 3em; font-weight: bold; font-weight: lighter; padding: 4px 18px; }
-.whoIsGreenCode p,
-.whatOurGoal p{ line-height: 200%; padding: 10px 18px; }
 
+.whoIsGreenCode h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1F1F1F;
+    padding-left: 120px;
+}
+.whatOurGoal h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1F1F1F;
+    padding-left: 60px;
+    padding-right: 78px;
+}
+
+.whoIsGreenCode p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-left: 120px;
+    padding-right: 35px;
+    
+}
+.whatOurGoal p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-right: 120px;
+    padding-left: 60px;
+    
+}
+.help{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+padding-top: 100px;
+color: #004B30;
+
+}
 /* STYLE DEFAULT */
-.btnSignDefault{ background: #F00; width: 70%; max-width: 350px; height: 60px; margin: 2% 0%; cursor: pointer; border: 2px solid #FF0; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; }
-.btnSignDefault:focus{ background-color: thistle; }
+
+.btnSignDefault {
+    background: #6BA85A;
+    width: 467px;
+    height: 85px;
+    left: 487px;
+    top: 1146px;
+    margin: 2% 0%;
+    cursor: pointer;
+    border: 4px solid #6BA85A;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+.btnSignDefault:focus {
+    background-color: thistle;
+}
+
+.container .row h1 {
+    width: 681.02px;
+    height: 107px;
+    left: 379.95px;
+    top: 175px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 100px;
+    border: 2px solid #6BA85A;
+    box-sizing: border-box;
+    background: #6BA85A;
+    color: #FFFFFF;
+}
+
+.container .row p {
+    width: 506px;
+    height: 42px;
+    left: 468px;
+    top: 318px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #004B30;
+}
+
+.botoes{
+    padding-left: 150px;
+}
+
+.backgroundImageLixo .row{
+    width: 604px;
+height: 307px;
+left: 720px;
+top: 2124px;
+    background-color: rgba(0, 32, 64, 0.3);
+}
+
+.backgroundImageLixo .row p {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 200%;
+
+color: #FFFFFF;
+}
+.backgroundImageLixo .row h3 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+
+.imgCelular{
+    height: 509px;
+    background: url("../image/celular.png") no-repeat
+}
+.imgPlataformas{
+    height: 209px;
+    background: url("../image/Plataformas.png") no-repeat
+}
+.imgRetangulo{
+    height: 10px;
+    background: url("../image/retangulo.png") no-repeat
+}
+.backgroundGreen .imgCelular h1{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+
+color: #6BA85A;
+
+}
+.backgroundGreen .imgCelular p{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+    
+    }
+
+    .imgGarrafa{
+        height: 116px;
+    background: url("../image/Garrafa.png") no-repeat
+    }
