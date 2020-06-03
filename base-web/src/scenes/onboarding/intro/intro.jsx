@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class IntroView extends Component {
 
@@ -12,7 +13,7 @@ class IntroView extends Component {
                         <a href="#oqQremos">O Que Queremos</a>
                         <a href="#nossaMissao">Nossa Missão</a>
                         <a href="#transfoMundo">Transforme o Mundo</a>
-                        <a href="#login">LOGAR</a>
+                        <Link to="/signin">LOGAR</Link>
                     </div>
                     <div className="col xl12 imageBackground">
                         <div className="container">

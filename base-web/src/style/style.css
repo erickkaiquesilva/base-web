@@ -74,7 +74,7 @@
     padding-top: 50px;
 }
 
-.imgRedeSocial{
+.imgRedeSocial {
     height: 56px;
     background: url("../image/redeSocial.png") no-repeat
 }
@@ -221,7 +221,8 @@
     color: #1F1F1F;
     padding-left: 120px;
 }
-.whatOurGoal h1{
+
+.whatOurGoal h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -241,9 +242,9 @@
     color: #000000;
     padding-left: 120px;
     padding-right: 35px;
-    
 }
-.whatOurGoal p{
+
+.whatOurGoal p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -252,19 +253,19 @@
     color: #000000;
     padding-right: 120px;
     padding-left: 60px;
-    
 }
-.help{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-padding-top: 100px;
-color: #004B30;
 
+.help {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 100px;
+    color: #004B30;
 }
+
 /* STYLE DEFAULT */
 
 .btnSignDefault {
@@ -320,73 +321,348 @@ color: #004B30;
     background: #004B30;
 }
 
-.botoes{
+.botoes {
     padding-left: 150px;
 }
 
-.backgroundImageLixo .row{
+.backgroundImageLixo .row {
     width: 604px;
-height: 307px;
-left: 720px;
-top: 2124px;
+    height: 307px;
+    left: 720px;
+    top: 2124px;
     background-color: rgba(0, 32, 64, 0.3);
 }
 
 .backgroundImageLixo .row p {
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 200%;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF;
 }
+
 .backgroundImageLixo .row h3 {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-
-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
 }
 
-.imgCelular{
+.imgCelular {
     height: 509px;
     background: url("../image/celular.png") no-repeat
 }
-.imgPlataformas{
+
+.imgPlataformas {
     height: 209px;
     background: url("../image/Plataformas.png") no-repeat
 }
-.imgRetangulo{
+
+.imgRetangulo {
     height: 10px;
     background: url("../image/retangulo.png") no-repeat
 }
-.backgroundGreen .imgCelular h1{
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-line-height: 75px;
-
-color: #6BA85A;
-
+.backgroundGreen .imgCelular h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: #6BA85A;
 }
-.backgroundGreen .imgCelular p{
 
+.backgroundGreen .imgCelular p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
     line-height: 42px;
-    
     color: #FFFFFF;
-    
-    }
+}
 
-    .imgGarrafa{
-        height: 116px;
+.imgGarrafa {
+    height: 116px;
     background: url("../image/Garrafa.png") no-repeat
-    }
+}
+
+/* ESTILIZAÇÃO FORMULARIO DE LOGIN */
+
+.fundo-login {
+    min-height: 100vh;
+    background-color: #004B30;
+    background: url("../image/fundo-login.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+}
+
+.text-topo h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttom-back {
+    width: 467px;
+    height: 85px;
+    cursor: pointer;
+    color: #FFFFFF !important;
+    border: transparent !important;
+    background: transparent !important;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.text-topo p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box-login {
+    width: 466px;
+    height: 580px;
+    left: 555.41px;
+    top: 229.72px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 38%;
+}
+
+.box-login h1 {
+    font-size: 2.5em;
+    padding: 0px 10px;
+    color: var(--cinza-primario);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box-login p {
+    font-size: 1em;
+    padding: 0px 10px;
+    color: var(--cinza-primario);
+    margin-left: 20px;
+}
+
+.box-login p.texto-cadastrese {
+    max-width: 400px;
+    font-weight: lighter;
+    color: var(--cinza-primario);
+}
+
+p.texto-cadastrese a {
+    font-weight: bold;
+    color: var(--verde-secundario);
+}
+
+.formulario-login label {
+    display: block;
+    font-weight: lighter;
+    color: #DDD;
+}
+
+.formulario-login form {
+    display: block;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.formulario-login input {
+    margin-bottom: 15px;
+    max-width: 450px;
+}
+
+.formulario-login .formulario-linha {
+    width: 350px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+
+.checked-box {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.checkmark {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.formulario-login input[type="submit"] {
+    width: 250px;
+    height: 65px;
+    background: #26BF4C;
+    border-radius: 10px;
+    border: transparent !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 16%;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.textErrorLogin {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e25353 !important;
+    padding: 12px;
+}
+
+.formulario-login .link-esqueciSenha {
+    text-align: center;
+    display: block;
+    margin-right: 16px;
+    color: var(--verde-secundario) !important;
+    font-weight: bold;
+}
+
+/*
+    PÁGINA DE CADASTRO
+*/
+
+.fundo-cadastro {
+    background: #056A54;
+    /* background: url("../Image/fundo-cadastro.jpg") no-repeat center center; */
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.box-cadastros {
+    width: 100%;
+    max-width: 550px;
+    padding: 50px;
+    background: #FFF;
+    border-radius: 7px;
+    margin: 3% 0;
+}
+
+.box-cadastros h1 {
+    font-size: 2.5em;
+    padding: 0px 10px;
+    color: var(--cinza-primario);
+    margin-top: 20px;
+}
+
+.box-cadastros p {
+    font-size: 1em;
+    padding: 0px 10px;
+    color: var(--cinza-primario);
+}
+
+.formulario-cadastro label {
+    display: block;
+    font-weight: lighter;
+    color: #DDD;
+}
+
+.formulario-cadastro form {
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.formulario-cadastro input {
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.campos-metade {
+    float: left;
+    width: 47%;
+    margin-right: 10px;
+}
+
+.campos-metade label {
+    display: inline-block;
+    width: 45%;
+}
+
+.campos-metade input {
+    width: 100%;
+}
+
+.formulario-cadastro input[type="submit"] {
+    max-width: 200px;
+    height: 45px;
+    margin: 30px 0px;
+    outline: none;
+}
+/*
+    PÁGINA DE BOAS VINDAS
+*/
+
+.fundo-welcome {
+    height: 100vh;
+}
+
+.message-welcome {
+    margin: 5% 0;
+}
+
+.message-welcome h1 {
+    font-size: 5em;
+    margin: 20px 0;
+}
+
+.message-welcome .box-welcome-message {
+    padding: 20px;
+    background: var(--verde-secundario);
+    border-radius: 10px;
+}
+
+.box-welcome-message p {
+    font-size: 1.3em;
+    color: #FFF;
+    line-height: 200%;
+    padding: 20px;
+}
+
+.message-welcome button {
+    width: 60%;
+    height: 70px;
+    border-radius: 100px;
+    color: #FFF;
+    font-size: 1.3em;
+    outline: none;
+    background: var(--verde-primario);
+    border-color: var(--verde-primario);
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.banner-welcome {
+    background: #009944;
+    background: url("../image/fundo-welcome.gif") no-repeat center center;
+    background-size: cover;
+}
