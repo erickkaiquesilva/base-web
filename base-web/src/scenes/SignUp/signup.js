@@ -11,10 +11,12 @@ export default class SignUp extends Component {
           <div className="row">
             <div className="col-lg-1"></div>
             <article className="col-lg-5 box-cadastros">
+              <div className="folinha">
               <h1>Crie Sua Conta</h1>
               <p>
                 E ajude o mundo a ser mais limpo
                 </p>
+                </div>
               <div className="formulario-cadastro">
                 <form onSubmit={this.handleSubmit}>
                   <label>E-mail</label>

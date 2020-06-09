@@ -19,7 +19,9 @@ class IntroView extends Component {
                         <div className="container">
                             <div className="row">
                                 <center>
-                                    <h1>GREEN CODE</h1>
+                                <div className="border-green">
+                                    <h1 >GREEN CODE</h1>
+                                   </div>
                                     <p>A preservação da natureza sempre será nosso maior valor</p>
                                 </center>
                                 <div className="botoes">

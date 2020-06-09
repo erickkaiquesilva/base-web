@@ -10,14 +10,14 @@ export default class Welcome extends Component {
                     <div className="row">
                         <div className="col-lg-1"></div>
                         <div className="col-lg-5 message-welcome">
-                            <h1>Bem Vindo <br />Victor Ferreira</h1>
+                            <h1>Bem Vindo <br />xuxu</h1>
                             <div className="box-welcome-message">
                                 <p>
                                     Voce acaba de se juntar
                                     a uma legião de pessoas
                                     que ajudam a limpar o mundo
                                     de uma maneira divertida, e diferente.
-                            </p>
+                                </p>
                             </div>
                             <Link to="/dashboard">
                                 <button>Comece agora a reciclar</button>

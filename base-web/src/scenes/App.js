@@ -6,6 +6,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 import SignIn from './SignIn/signin';
 import SignUp from './SignUp/signup';
 import Welcome from './Welcome/welcome';
+import Dashboard from './Dashboard/dashboard';
 
 // ROTAS
 import { BrowserRouter, Route } from "react-router-dom";
@@ -17,6 +18,7 @@ import "../style/styleAdm.css";
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +27,7 @@ function App() {
       <Route path="/signin" component={SignIn} />
       <Route path="/signup" component={SignUp} />
       <Route path="/welcome" component={Welcome} />
+      <Route path="/dashboard" component={Dashboard} />
       
     </BrowserRouter>
   );
