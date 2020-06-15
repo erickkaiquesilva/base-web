@@ -1,8 +1,59 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom";
+import { signUp, signIn } from "../../Actions/resquest";
+import { signInMock } from "../../Actions/requetMock";
 
 export default class SignUp extends Component {
-  
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      nome: "",
+      sobrenome: "",
+      cpf: "",
+      email: "",
+      senha: "",
+    };
+  }
+
+  componentDidMount() {
+    if (localStorage.getItem('user') !== null) {
+      this.props.history.push('/dashboard')
+    }
+  }
+
+  handleChange = event => {
+    console.log(event);
+
+    const state = Object.assign({}, this.state);
+
+    let field = event.target.id;
+
+    state[field] = event.target.value;
+
+    this.setState(state);
+  };
+
+  handleSubmit = event => {
+    event.preventDefault();
+
+    try {
+      signInMock(this.state)
+        .then((response) => {
+          console.log(response);
+          localStorage.setItem('user', JSON.stringify(response.data))
+          if (response.status == 200) {
+            this.props.history.push('/welcome')
+          }
+          this.props.history.push('/welcome')
+        })
+        .catch(err => {
+          alert("Error")
+        })
+    } catch (err) {
+      console.log("error ", err);
+    }
+  };
   render() {
     console.log(this.state);
     return (
