@@ -56,7 +56,7 @@ class IntroView extends Component {
                         </p>
                     </article>
                     <footer>
-                        <center><button className="btnSignDefault">AJUDAR NA PRESERVAÇÃO DO MUNDO</button></center>
+                        <center><Link to="/signUp"><button className="btnSignDefault">AJUDAR NA PRESERVAÇÃO DO MUNDO</button></Link></center>
                     </footer>
                     <div className="help">
                         <h4>AJUDE NÓS RECICLAR</h4>
