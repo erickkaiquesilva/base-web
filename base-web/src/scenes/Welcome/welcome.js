@@ -10,7 +10,7 @@ export default class Welcome extends Component {
                     <div className="row">
                         <div className="col-lg-1"></div>
                         <div className="col-lg-5 message-welcome">
-                            <h1>Bem Vindo <br />xuxu</h1>
+                            <h1>Bem Vindo {this.state.name} {this.state.lastname}</h1>
                             <div className="box-welcome-message">
                                 <p>
                                     Voce acaba de se juntar

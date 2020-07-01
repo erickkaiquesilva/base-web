@@ -48,8 +48,8 @@ export default class SignIn extends Component {
                         localStorage.setItem('user', JSON.stringify(response.data))
                         this.props.history.push('/dashboard')
                     }
-                    localStorage.setItem('user', JSON.stringify(response.data))
-                    this.props.history.push('/dashboard')
+                    // localStorage.setItem('user', JSON.stringify(response.data))
+                    // this.props.history.push('/dashboard')
                 })
                 .catch(e => {
                     console.log("Error XPTO")
@@ -99,7 +99,7 @@ export default class SignIn extends Component {
                                         <span class="checkmark">Lembrar minhas credenciais</span>
                                     </label>
                                     <input className="btn-formulario-linha" type="submit" value="Login" />
-                                    <Link><a className="link-esqueciSenha">Esqueci Minha Senha</a></Link>
+                                    
                                 </form>
                             </div>
                             <p className="texto-cadastrese">Não tem uma conta ainda?

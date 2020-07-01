@@ -67,7 +67,7 @@ export default class Dashboard extends Component {
       <div className="row">
         <div className="col-lg-1"></div>
         <div className="col-lg-5 informacoes-usuario">
-          <h1><span className="text1">OLÁ,</span><br></br> <span className="text2">Victor Ferreira</span></h1>
+          <h1><span className="text1">OLÁ,</span><br></br> <span className="text2">{this.state.name} {this.state.lastname}</span></h1>
           <button onClick={this.handleClick.bind(this)} className="btn-logout"></button>
 
           <div title="Usuario" className=" btn-user"></div>

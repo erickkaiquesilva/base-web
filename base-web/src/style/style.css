@@ -1,5 +1,10 @@
 /*NAVBAR*/
-
+/* .logar{
+    background-color: #6BA85A !important;
+    width: 100px;
+    height: 36px;
+    border-radius: 10px;
+} */
 .topnav {
     background-color: transparent !important;
     overflow: hidden;
@@ -201,6 +206,14 @@
     color: #004B30;
 }
 
+.help p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #6BA85A;
+}
+
 .color1 {
     width: 720px;
     height: 580px;
@@ -256,17 +269,17 @@
 
 @media only screen and (max-width: 1600px) {
     .imgGarrafa {
-        top: 1639px;
+        top: 1676px;
     }
     .botoes {
         padding-left: 69px;
     }
     .topnav {
-        padding-left: 392px;
+        padding-left: 471px;
     }
     .backgroundImageLixo .row {
-        left: 979px;
-        top: 2213px;
+        left: 986px;
+        top: 2238px;
         position: absolute;
         width: 598px;
         height: 307px;
@@ -285,8 +298,10 @@
 }
 
 .backgroundImageLixo .row {
-    left: 1214px;
-    top: 2189px;
+    left: 986px;
+    top: 2238px;
+    /* left: 1214px;
+    top: 2189px; */
     position: absolute;
     width: 604px;
     height: 307px;
@@ -303,6 +318,7 @@
 }
 
 .backgroundImageLixo .row h3 {
+    padding-left: 15px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -422,7 +438,7 @@
     width: 136px;
     height: 56px;
     left: 1407px;
-    top: 3864px;
+    top: 3949px;
     background: url("../image/redeSocial.png") no-repeat
 }
 
@@ -475,10 +491,11 @@
 }
 
 .box-login {
+    position: absolute;
     width: 466px;
     height: 580px;
-    left: 555.41px;
-    top: 229.72px;
+    left: -32px;
+    top: 187.72px;
     background: #FFFFFF;
     border-radius: 20px;
     margin-left: 38%;
@@ -770,7 +787,7 @@ p.texto-cadastrese a {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 32%;
+    top: 41%;
     left: 270px;
 }
 
@@ -781,7 +798,7 @@ p.texto-cadastrese a {
     height: 44px;
     border: none;
     position: absolute;
-    top: 32%;
+    top: 41%;
     left: 200px;
 }
 
@@ -792,7 +809,7 @@ p.texto-cadastrese a {
     height: 44px;
     border: none;
     position: absolute;
-    top: 32%;
+    top: 41%;
     left: 125px;
 }
 
