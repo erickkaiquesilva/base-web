@@ -45,7 +45,7 @@ export default class SignUp extends Component {
           if (response.status == 200) {
             this.props.history.push('/welcome')
           }
-          // this.props.history.push('/welcome')
+          this.props.history.push('/welcome')
         })
         .catch(err => {
           alert("Error")

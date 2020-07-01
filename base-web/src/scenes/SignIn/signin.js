@@ -48,8 +48,8 @@ export default class SignIn extends Component {
                         localStorage.setItem('user', JSON.stringify(response.data))
                         this.props.history.push('/dashboard')
                     }
-                    // localStorage.setItem('user', JSON.stringify(response.data))
-                    // this.props.history.push('/dashboard')
+                    localStorage.setItem('user', JSON.stringify(response.data))
+                    this.props.history.push('/dashboard')
                 })
                 .catch(e => {
                     console.log("Error XPTO")
@@ -90,6 +90,7 @@ export default class SignIn extends Component {
                                         onChange={e => this.handleChange(e)}
                                         id="senha"
                                         placeholder="Sua senha de acesso"
+                                        type = "password"
                                     />
                                     <p className="textErrorLogin">
                                         {this.state.Error}
