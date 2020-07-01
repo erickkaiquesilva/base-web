@@ -1,10 +1,22 @@
 /*NAVBAR*/
+
 /* .logar{
     background-color: #6BA85A !important;
     width: 100px;
     height: 36px;
     border-radius: 10px;
 } */
+.italic{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 33px;
+}
+.colorCode{
+    color: #004B30 !important;
+}
+.colorCode2{
+    color: #6BA85A !important;
+}
 .topnav {
     background-color: transparent !important;
     overflow: hidden;

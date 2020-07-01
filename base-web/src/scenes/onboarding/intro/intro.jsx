@@ -22,7 +22,7 @@ class IntroView extends Component {
 
                                 <center>
                                     <div className="border-green">
-                                        <h1 >GREEN CODE</h1>
+                                        <h1 >GREEN <span className = "colorCode">CODE</span> </h1>
                                     </div>
                                     <p>A preservação da natureza sempre será nosso maior valor</p>
                                 </center>
@@ -45,14 +45,14 @@ class IntroView extends Component {
                 </div>
                 <section className="row backgroundDefault1">
                     <article className="col xl6 whoIsGreenCode">
-                        <h1>QUEM É A GREEN CODE</h1>
+                        <h1>QUEM É A <span className = "colorCode">GREEN CODE</span></h1>
                         <p>
                             A Green Code é uma empresa de soluções tecnológicas,
                             criada em 2019, com o objetivo de criar soluções pra área de preservação do meio ambiente.
                         </p>
                     </article>
                     <article className="col xl6 whatOurGoal">
-                        <h1>QUAL NOSSO OBJETIVO</h1>
+                        <h1>QUAL NOSSO <span className = "colorCode2">OBJETIVO</span></h1>
                         <p>
                         A Green Code tem como objetivo criar soluções e conscientizar a 
                         população sobre preservação do meio ambiente desenvolvendo a construção de
@@ -114,7 +114,7 @@ class IntroView extends Component {
                     </article>
 
                     <article className="col xl12 footer">
-                        <p>GREEN CODE - por um mundo mais sustentável</p>
+                        <p>GREEN CODE - <span className = "italic">por um mundo mais sustentável</span></p>
                         <ul>
                             <li><a href="">- Fale Conosco</a></li>
                             <li><a href="">- Seja um Parceiro</a></li>
